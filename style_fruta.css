@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url("../imagen/merc.jpg");
+    background-size: cover;
+}
+.header_superior{ 
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 250px;
+    margin-left: 50px;
+    border-bottom-right-radius: 200px;
+}
+
+
+nav{
+    max-width: 700px;
+    margin-left: 600px;
+    background-color: rgb(8, 203, 8);
+    font-size: 20px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal li a{
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: dashed;
+}
+
+.menu-horizontal li:hover{
+    background-color: rgb(0, 255, 187);
+}
+
+
+table{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    backface-visibility: visible;
+}
+h1{
+   text-align: center;
+}
+
+table{
+    margin-left: 300px;
+    width: 50%;
+    height: 500px;
+    color: rgb(0, 0, 0);
+}
+
+th{
+    background-color: rgb(127, 243, 45);
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    background: green;
+    min-height: 100px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+.icon-elem{
+    list-style: none;
+}
+.icon{
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px 10px;
+    transition: 0.5;
+}
+.icon:hover{
+    transform: translateY(-15px);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+.menu-elem{
+    list-style: none;
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+.menu-icon:hover{
+    opacity: 1.5;
+}
+.text{
+    color: blue;
+}
